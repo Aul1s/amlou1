@@ -315,12 +315,8 @@
 	  
 	  .footer__list-item {
 		margin-bottom: 10px;
-		}
-
-		.footer__list-item-social {
-			margin-bottom: 10px;
-			color: #ff5733;
-		}	
+		
+	  }
 	  
 	  .footer__link a {
 		color: #fff;
@@ -336,5 +332,49 @@
 	  .footer__bottom {
 		margin-top: 30px;
 	  }
+	  /* This rule makes all images and videos responsive */
+img, video {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  /* This rule adjusts the size and position of the header text on smaller screens */
+  header h1 {
+	font-size: 2rem;
+	margin-top: 1rem;
+  }
+  
+  /* This rule adjusts the size and position of the navigation links on smaller screens */
+  nav {
+	text-align: center;
+  }
+  
+  nav a {
+	display: block;
+	margin: 0.5rem;
+	font-size: 1.2rem;
+  }
+  
+  /* This rule adjusts the size and position of the article text on smaller screens */
+  article {
+	padding: 1rem;
+  }
+  
+  article h2 {
+	font-size: 1.5rem;
+	margin-top: 2rem;
+  }
+  
+  article p {
+	font-size: 1.2rem;
+	line-height: 1.5;
+  }
+  
+  /* This rule adjusts the size and position of the footer text on smaller screens */
+  footer p {
+	font-size: 1rem;
+	margin-top: 1rem;
+  }
+  
 	  
   
